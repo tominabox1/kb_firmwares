@@ -35,4 +35,4 @@ The original Leftover30 used surface mount jumpers to skip RGB LEDs on the PCBs,
 | 1 	| U102 	| STM32F072CBTx 	| LQFP-48_7x7mm_P0.5mm 	|
 
 ## Schematic
-!(https://i.imgur.com/Mmo4RV2.png)
+![schematic](https://i.imgur.com/Mmo4RV2.png)
