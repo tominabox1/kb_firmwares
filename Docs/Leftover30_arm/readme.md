@@ -1,11 +1,11 @@
-#Leftover30_ARM 
+# Leftover30_ARM 
 
-##Hardware modification:
+## Hardware modification:
 The original Leftover30 used surface mount jumpers to skip RGB LEDs on the PCBs, I used the same implementation but found out that this does not work with SK6812MINI-E LEDs. To make all 8 RGB LEDs addressable, the jumpers must be **opened**. To accomplish this the traces next to them need to be cut (see below) Instead we must disable these in firmware (See commented parts of the config.h). 
 
 ![cut trace](https://i.imgur.com/fmm8UqD.jpg)
 
-##Bill of Materials
+## Bill of Materials
 
 | Qty 	| Reference(s) 	| Value/Part No. 	| Footprint 	|
 |-	|-	|-	|-	|
@@ -34,5 +34,5 @@ The original Leftover30 used surface mount jumpers to skip RGB LEDs on the PCBs,
 | 1 	| U101 	| MCP1700-3002E_SOT23 	| SOT23 	|
 | 1 	| U102 	| STM32F072CBTx 	| LQFP-48_7x7mm_P0.5mm 	|
 
-##Schematic
+## Schematic
 !(https://i.imgur.com/Mmo4RV2.png)

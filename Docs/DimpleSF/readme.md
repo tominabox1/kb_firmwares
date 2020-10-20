@@ -1,4 +1,4 @@
-#DimpleSF (South Facing)
+# DimpleSF (South Facing)
 
 The DimpleSF pcb is designed to be a drop in replacement for the stock Dimple keyboard pcb by LazyDesigners. The board features south facing hotswap support and removes the pcb standoff points to allow for more esoteric plate options and flexible assemblies. The board works however some major oversights were made during design. 
 

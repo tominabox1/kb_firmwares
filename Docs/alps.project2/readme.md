@@ -1,4 +1,4 @@
-#alps.project.2
+# alps.project.2
 
 The controller mounting for alps.project.2 is with components facing **away** from the pcb:
 
